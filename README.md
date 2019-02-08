@@ -10,3 +10,7 @@ cd typescript-node-base
 npm install
 npm run dev
 ```
+
+# License
+
+[ISC License](./LICENSE)
