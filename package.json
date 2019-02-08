@@ -1,0 +1,21 @@
+{
+  "name": "typescript-node-base",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.23",
+    "ts-node": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.32"
+  }
+}
