@@ -16,10 +16,10 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^10.12.23",
+    "@types/node": "^12.7.4",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^2.6.3",
-    "ts-node": "^8.0.2",
+    "rimraf": "^2.7.1",
+    "ts-node": "^8.3.0",
     "ts-node-dev": "^1.0.0-pre.42",
     "typescript": "^3.6.2"
   }
