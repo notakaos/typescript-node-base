@@ -1,9 +1,10 @@
 {
   "name": "typescript-node-base",
   "version": "0.1.0",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "ts-node ./src/index.ts",
+    "dev": "ts-node src/index.ts",
     "dev:watch": "ts-node-dev --respawn src/index.ts",
     "clean": "rimraf dist/*",
     "tsc": "tsc",
@@ -11,16 +12,14 @@
     "start": "node ."
   },
   "keywords": [],
-  "author": "Nobutaka OSHIRO",
+  "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^12.12.7",
+    "@types/node": "^12.12.54",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.0",
-    "ts-node": "^8.4.1",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "typescript": "^3.7.2"
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
   }
 }
